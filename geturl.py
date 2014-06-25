@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 #coding=utf-8
+# author:Richard Liu
+# email: <richardxxx0x@gmail.com>
 
 from BeautifulSoup import BeautifulSoup
 import urllib2
