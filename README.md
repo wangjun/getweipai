@@ -9,3 +9,5 @@ getweipai
 python geturl.py  http://www.weipai.cn/user/5398544cebeddbb2768b4567
 
 其中：http://www.weipai.cn/user/5398544cebeddbb2768b4567 是微拍个人主页url
+
+PS：需要注意的是，python需要2.7版本以上.
