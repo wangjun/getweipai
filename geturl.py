@@ -51,6 +51,7 @@ def main():
     print "总共有%d个视频！" %(videonums)
     print "你想获取多少个视频下载链接？"
     num = input("输入个数:")
+    print "正在获取视频链接，请稍等......"
    
     if num > videonums:
         num = videonums
@@ -78,4 +79,4 @@ if __name__ == "__main__":
     for i in result:
 	print i
 
-print "Elapsed Time: %s" % (time.time() - start)
+print "视频链接已经获取完毕，请复制链接进行下载，您可以选择百度网盘离线下载，或者通过浏览器直接下载:) 此次共耗时 : %s秒" % (time.time() - start)
