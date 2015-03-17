@@ -25,7 +25,7 @@ from BeautifulSoup import BeautifulSoup
 import urllib2
 import re
 import sys
-import time 
+import time
 
 def get_userinfo(url):
     global videonums
